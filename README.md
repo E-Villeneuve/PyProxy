@@ -1,6 +1,6 @@
 # PyProxy
 
-A caching HTTP proxy written in Python using asyncio. It also supports HTTPS through CONNECT tunnels.
+A caching HTTP proxy written in Python using asyncio. It also supports HTTPS, but tunnels the connections instead of decrypting and caching them (I didn't want to make a MITM program).
 
 I built this to learn more about networking, HTTP and async programming in Python. It doesn't use any third-party libraries.
 
